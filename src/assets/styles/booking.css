@@ -1,0 +1,43 @@
+
+.bookingFlow {
+    border-top: solid #e2e2e2;
+    margin-top: 13px;
+}
+
+.bookingFlow>ul {
+    padding-left: 0px;
+}
+
+.bookingFlow>ul>li {
+    list-style: none;
+    width: 25%;
+    float: left;
+    border-bottom: solid #e2e2e2;
+    border-left: solid #e2e2e2;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.bookingFlow>ul> .active {
+    background: #434a55 !important;
+}
+
+.bookingFlow>ul> .active>div>h3 {
+    color: #fff;
+}
+
+.bookingFlow>ul>li>div>h3 {
+    float: left;
+    margin-left: 10px;
+}
+
+.circle {
+    background-color: #fff;
+    border: 2px solid gray;
+    height: 65px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 65px;
+    float: left;
+}

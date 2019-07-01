@@ -1,0 +1,484 @@
+@import url(https://fonts.googleapis.com/css?family=Maitree:400,700);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+body {
+  background: #e7e7e7;
+}
+
+.App {
+  text-align: center;
+}
+
+.home {
+  margin-top: 125px;
+}
+
+.home>section>div {
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background: white;
+}
+
+.home>section>div>h3 {
+  text-align: -webkit-left;
+  margin-left: 25px;
+  font-size: large;
+  color: #7a787c;
+}
+
+.home>section>div>h3>i {
+  margin-right: 10px;
+}
+
+.bar {
+  background: #f07b36;
+  height: 10px;
+}
+
+label {
+  text-align: -webkit-left;
+  color: #999797;
+}
+
+.large {
+  width: 1200px !important;
+}
+
+.large>div>label {
+  width: 15%;
+  margin-right: 2%;
+}
+
+input[type="time" i] {
+  width: auto;
+  margin-right: 2%;
+}
+
+.large>div>label>select {
+  width: -webkit-fill-available;
+  height: 46px;
+  margin-top: 6px;
+}
+
+.buttons {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #f07b36;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buttons>i {
+  margin-left: 5px;
+}
+
+.check {
+  float: left;
+  margin-left: 3%;
+  font-size: medium;
+}
+
+.main-filter {
+  margin-top: 20px;
+  background: #e7e7e7 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.filter-main {
+  width: 30%;
+  float: left;
+}
+.filter-main>div {
+  padding: 0;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background: white;
+  margin-bottom: 20px;
+}
+
+.main-result {
+  margin-top: 20px;
+  background: #e7e7e7 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.result-main {
+  width: 65%;
+  float: right;
+  margin-left: 3%;
+}
+
+.info-description>p {
+  text-align: -webkit-left;
+  padding: 11px;
+}
+
+.header {
+  padding: 10px;
+  border-bottom: solid #979393;
+  text-align: -webkit-left;
+  font-size: large;
+  background: white;
+}
+
+.header>i {
+  margin-right: 5px;
+}
+.info-description>p {
+  background: #e7e7e794;
+  margin-bottom: 0;
+}
+
+.filter-results {
+  background: #e7e7e794 !important;
+}
+
+.subTitle {
+  text-align: -webkit-left;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.range {
+  margin-bottom: 10px;
+}
+
+.range>div {
+  padding: 10px 10px 20px;
+  background: #f3f1f1;
+  height: fit-content;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.manufacturers>div {
+  padding: 10px 10px 20px;
+    background: #f3f1f1;
+    height: fit-content;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.manufacturers>div>label {
+  width: 100%;
+}
+
+.manufacturers>div>label>input {
+  margin-right: 5px;
+}
+
+.manufacturers>div>label>div {
+  float: right;
+  box-shadow: inset -2px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  padding: 0px 10px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 20px;
+  background: #e7e7e794;
+  
+}
+
+.vehicle-type>div {
+  padding: 10px 10px 20px;
+    background: #f3f1f1;
+    height: fit-content;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.vehicle-type>div>label {
+  width: 100%;
+}
+
+.vehicle-type>div>label>input {
+  margin-right: 5px;
+}
+
+.vehicle-type>div>label>div {
+  float: right;
+  box-shadow: inset -2px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  padding: 0px 10px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 20px;
+  background: #e7e7e794;
+  
+}
+
+.sort {
+  float: right;
+  width: 22%;
+}
+
+.sort>p {
+  float: left;
+  font-size: small;
+  margin-top: 4px;
+}
+
+.sort>div>button {
+  background: none;
+  border: none;
+  font-size: medium;
+}
+
+#type {
+  color: #087ba1;
+}
+
+.car-details {
+  background: white;
+  width: 70%;
+  float: left;
+  padding: 10px 5px 0px 0px;
+  border-bottom: dashed;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+.price {
+  width: 30%;
+  float: right;
+  background: #f3f1f1;
+  height: 204px;
+  border-bottom: dashed;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgray;
+}
+
+.price>p>strong {
+  font-size: xx-large;
+}
+
+.price>button {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #f07b36;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.car-details>img {
+  width: 30%;
+  float: left;
+}
+
+.car-details>button {
+  width: 70%;
+  border: none;
+  background: none;
+  text-align: -webkit-left;
+  padding-left: 0px;
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  margin-bottom: 10px;
+  color: #f07b36;
+}
+
+.details {
+  float: left;
+  margin-top: 20px;
+}
+
+.details>div>p {
+  float: left;
+  margin-right: 10px;
+}
+
+.details>ul {
+  float: left;
+  padding-left: 0;
+}
+
+.details>ul>li {
+  list-style: none;
+  text-align: -webkit-left;
+}
+
+.car-name {
+  font-weight: bold;
+}
+
+.divider {
+  font-weight: 100;
+}
+
+.carvehicle-type {
+  font-weight: 100;
+}
+
+.top-seller {
+  padding: 1px 7px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background: #434a55;
+  color: white;
+  font-weight: bold;
+}
+
+.page-numbers {
+  display: -webkit-box;
+  margin-left: 200px;
+}
+
+.page-numbers>li {
+  list-style: none;
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #ffffff;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer
+}
+
+.currentPage {
+  background: #f07b36 !important;
+  color: white !important;
+}
+
+.extras {
+  margin-top: 10%;
+}
+
+.extras>h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.extras>button {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #f07b36;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.booking>h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.booking>h2 {
+  font-size: -webkit-xxx-large;
+  color: #f07b36;
+}
+
+#thanks {
+  font-family: 'Luckiest Guy', cursive;
+  color: #f07b36;
+}
+
+#confirm-booking {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #f07b36;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*Footer*/
+.navfooter {
+  background: white;
+  height: 220px;
+  bottom: -539px;
+}
+.navfooter-results {
+  background: white;
+  height: 220px;
+  bottom: -40px;
+}
+.footer {
+  position: absolute;
+  top: 0;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+.footer-object {
+  width: 19%;
+  float: left;
+}
+
+.footer-list {
+  padding-left: 0px;
+}
+
+.footer-list>li {
+  list-style: none;
+}
+
+.footer-subtitle {
+  font-weight: bold;
+}
+
+.highlight {
+  box-shadow: inset -2px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  padding: 0px 10px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 20px;
+  background: #e7e7e794;
+  margin-left: 20px;
+}
+
+.footer-support {
+  font-weight: bold;
+}
+
+.footer-number {
+  font-weight: bold;
+}
+
+.footer-email {
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  color: #f07b36;
+}
